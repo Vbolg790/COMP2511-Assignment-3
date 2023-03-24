@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Tangerine:wght@700&display=swap');
+
+#main-heading {
+    background-image: linear-gradient(rgb(233, 127, 145), rgb(247, 215, 215));
+   
+}
+
+header {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    text-align: center;
+    color: #353964;
+    font-family: Tangerine;
+    font-size: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-left {
+    display: inline;
+}
+
+#nav-right {
+    display: inline;
+}
+
