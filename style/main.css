@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Tangerine:wght@700&display=swap');
 
 #main-heading {
-    background-image: linear-gradient(rgb(233, 127, 145), rgb(247, 215, 215));
-   
+    background-image: linear-gradient(rgb(233, 127, 145), rgb(252, 235, 235));
+    width: 100%;
+    height: auto;
 }
 
 header {
-    padding-top: 200px;
+    padding-top: 1px;
     padding-bottom: 50px;
 }
 
@@ -15,19 +16,66 @@ header h1 {
     text-align: center;
     color: #353964;
     font-family: Tangerine;
-    font-size: 80px;
+    font-size: 6vw;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    font-size: 2.5vw;
+    padding: 20px;
 }
 
 #nav-left {
     display: inline;
+    word-spacing: 20px;
 }
 
 #nav-right {
     display: inline;
+    word-spacing: 20px;
+}
+
+nav a {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    color: rgb(181, 81, 115);
+    border-radius: 25px;
+    font-family: Kalam;
+}
+
+nav a:hover {
+    background-color: rgb(138, 37, 86);
+    color: rgb(240, 219, 225);
+}
+
+hr {
+    width: 98%;
+    height: 2px;
+    background-color: #353964;
+    border-width: 0;
+}
+
+#name-line {
+    width: 50%;
+}
+
+.clouds {
+    position: relative;
+    top: 10px;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin: 0;
+}
+
+#content {
+    background-color: rgb(252, 235, 235);
 }
 
