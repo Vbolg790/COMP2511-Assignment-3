@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Tangerine:wght@700&display=swap');
 
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 #main-heading {
     background-image: linear-gradient(rgb(233, 127, 145), rgb(252, 235, 235));
     width: 100%;
@@ -88,6 +93,12 @@ body {
     background-color: #FCEBEB;
 }
 
+footer {
+    background-color:#4e5283;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -155,5 +166,21 @@ body {
 }
 
 @media screen and (min-width: 900px) {
+    
+    body {
+    max-width: 900px;
+    margin: auto;
+    }
 
+
+    header {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    }
+
+    nav {
+        font-size: 2vmax;
+    }
+    
 }
