@@ -23,10 +23,13 @@ header h1 {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
     font-size: 2.5vw;
     padding: 20px;
+}
+
+.dropdown-content {
+    display: flex;
+    justify-content: space-between;
 }
 
 #nav-left {
@@ -40,16 +43,18 @@ nav {
 }
 
 nav a {
-    background-color: rgb(255, 255, 255);
-    padding: 10px 50px;
+    background-color: #FBE3E4;
+    padding: 10px 40px;
     color: rgb(181, 81, 115);
     border-radius: 25px;
     font-family: Kalam;
+    text-decoration: none;
 }
 
 nav a:hover {
     background-color: rgb(138, 37, 86);
     color: rgb(240, 219, 225);
+    text-decoration: underline;
 }
 
 hr {
@@ -71,11 +76,84 @@ hr {
     height: auto;
 }
 
+.dropdown-button {
+    display: none;
+}
+
 h2 {
     margin: 0;
 }
 
-#content {
-    background-color: rgb(252, 235, 235);
+body {
+    background-color: #FCEBEB;
 }
 
+
+
+@media screen and (max-width: 600px) {
+    .dropdown-button {
+        background-color: #F2B3BC;
+        color: #4e5283;
+        font-family: Kalam;
+        border-radius: 10px;
+        padding: 16px;
+        font-size: 25px;
+        border: none;
+        display: block;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #efc0c0;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 2;
+        border-radius: 25px;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 8px;
+        margin: 10px;
+        font-size: 20px;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: rgb(138, 37, 86);
+    }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+      .dropdown:hover .dropdown-button {
+        background-color: #f09da9;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 4.2vmax;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+
+}
