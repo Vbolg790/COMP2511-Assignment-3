@@ -21,7 +21,7 @@ header h1 {
     text-align: center;
     color: #353964;
     font-family: Tangerine;
-    font-size: 6vw;
+    font-size: 8vw;
     margin-bottom: 30px;
     position: relative;
     z-index: 1;
@@ -38,12 +38,12 @@ nav {
 }
 
 #nav-left {
-    display: inline;
+
     word-spacing: 20px;
 }
 
 #nav-right {
-    display: inline;
+    
     word-spacing: 20px;
 }
 
@@ -159,13 +159,11 @@ footer {
         display: none;
     }
 
-    header h1 {
-        font-size: 4.2vmax;
-    }
+   
 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 852px) {
     
     body {
     max-width: 900px;
@@ -180,7 +178,13 @@ footer {
     }
 
     nav {
-        font-size: 2vmax;
+        font-size: 21px;
+    }
+
+    header h1{
+        font-size: 69px;
     }
     
 }
+
+
