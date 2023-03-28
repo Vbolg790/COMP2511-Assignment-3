@@ -29,6 +29,15 @@
     margin-left: 10px;
 }
 
+#design {
+    border-radius: 20px;
+    width: 90%;
+    border-color: #4e5283;
+    border-width: 10px;
+    border-style:double;
+    /* margin-left: 10px; */
+}
+
 
 .school-text {
     font-family: kalam;
@@ -48,13 +57,23 @@
     margin-right: 10px;
 }
 
+.design-text {
+    font-family: kalam;
+    padding: 5px 20px;
+    background-color: rgb(252, 198, 208);
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .container {
     margin-bottom: 50px;
 }
 
-
-
-
+.mru-picture, .language-picture, .design-picture {
+    text-align: center;
+    color:#2b2f53
+}
 
 @media screen and (max-width: 600px) {
     
@@ -66,14 +85,14 @@
         text-align: center;
     }
 
-    #mru, #languages{
+    #mru, #languages, #design{
         width: 90%;
         height: auto;
         border-style: solid;
         border-width: 5px;
     }
 
-    .school-text, .knowledge-text {
+    .school-text, .knowledge-text, .design-text {
         padding: 30px;
         margin: 20px;
     }
@@ -84,8 +103,8 @@
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 2fr 2fr;
-        grid-gap: 20px; 
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px; 
         align-items: center;
     }
       
@@ -116,6 +135,16 @@
     #languages {
         grid-column: 2;
         grid-row: 2;
+    }
+
+    #design {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .design-picture {
+        grid-column: 1;
+        grid-row: 3;
     }
 
 
