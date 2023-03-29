@@ -90,6 +90,16 @@ footer {
     margin-top: 50px;
 }
 
+::placeholder {
+    font-family: "Exo 2";
+    font-weight: bold;
+}
+
+#message{
+    position: relative;
+    top: 10px;
+}
+
 @media screen and (max-width: 600px) {
 
     dt {
