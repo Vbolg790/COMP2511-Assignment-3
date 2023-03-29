@@ -75,6 +75,17 @@
     color:#2b2f53
 }
 
+
+#links-to-page {
+    text-align: center;
+    padding: 30px;
+    word-spacing: 25px;
+    font-family: "kalam";
+
+}
+
+
+
 @media screen and (max-width: 600px) {
     
     section {

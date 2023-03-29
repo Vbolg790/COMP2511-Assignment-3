@@ -1,5 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+
 #about {
     background-color: #4e5283;
     color: aliceblue;
     text-decoration: none;
 }
+
+video {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: #4e5283;
+    border-style: double;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: "kalam";
+    color: #4e5283;
+}
+
+h3 {
+    text-align: center;
+    font-family: "kalam";
+    color: #4e5283;
+}
+
+p {
+    padding: 25px;
+    font-family: "kalam";
+    background-color: rgb(255, 198, 211);
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+@media  screen and (max-width: 570px) {
+
+    video {
+        width: 90%;
+        height: auto;
+        border-style:solid;
+        border-width: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 571px){
+    
+    p {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
+

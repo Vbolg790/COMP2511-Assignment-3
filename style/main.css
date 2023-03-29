@@ -101,7 +101,7 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 590px) {
     .dropdown-button {
         background-color: #F2B3BC;
         color: #4e5283;
@@ -163,7 +163,7 @@ footer {
 
 }
 
-@media screen and (min-width: 852px) {
+@media screen and (min-width: 790px) {
     
     body {
     max-width: 900px;
