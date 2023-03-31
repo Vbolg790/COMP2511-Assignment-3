@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Exo+2:ital,wght@0,200;1,100&family=Montserrat&family=PT+Sans&family=Source+Serif+Pro&display=swap');
 
 #home {
     background-color: #4e5283;
@@ -84,6 +85,25 @@
 
 }
 
+#skills {
+    font-family: Tangerine;
+    color:#2b2f53;
+    font-size: 8vw;
+}
+
+p.skill, h4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "PT Sans", "Times New Roman";
+}
+
+h4 {
+    font-size: 3vw;
+    font-family: "kalam";
+    letter-spacing: 3px;
+    color: #353964;
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -106,6 +126,10 @@
     .school-text, .knowledge-text, .design-text {
         padding: 30px;
         margin: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
     }
 
 }
@@ -158,11 +182,22 @@
         grid-row: 3;
     }
 
-
     h2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #skills {
+        font-size: 48px;
+    }
+
+    h4 {
+        font-size: 22px; 
+    }
+
+    #skills {
+        margin: 18px;
     }
 
 }
