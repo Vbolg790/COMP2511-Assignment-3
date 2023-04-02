@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
+:root {
+    --title-color: #353964;
+    --header-color: #4e5283;
+}
+
 
 #about {
-    background-color: #4e5283;
+    background-color: var(--header-color);
     color: aliceblue;
     text-decoration: none;
 }
@@ -16,7 +21,7 @@ video {
     margin-bottom: 40px;
     border-radius: 20px;
     border-width: 10px;
-    border-color: #4e5283;
+    border-color: var(--header-color);
     border-style: double;
 }
 
@@ -25,13 +30,13 @@ h2 {
     padding: 20px;
     margin-bottom: 10px;
     font-family: "kalam";
-    color: #4e5283;
+    color: var(--header-color);
 }
 
 h3 {
     text-align: center;
     font-family: "kalam";
-    color: #4e5283;
+    color: var(--header-color);
 }
 
 p {

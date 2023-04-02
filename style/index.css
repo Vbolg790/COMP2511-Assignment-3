@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Tangerine:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Exo+2:ital,wght@0,200;1,100&family=Montserrat&family=PT+Sans&family=Source+Serif+Pro&display=swap');
 
+:root {
+    --title-color: #353964;
+    --header-color: #4e5283;
+}
+
 #home {
-    background-color: #4e5283;
+    background-color: var(--header-color);
     color: aliceblue;
     text-decoration: none;
 }
@@ -15,7 +20,7 @@
 #mru {
     border-radius: 20px;
     width: 100%;
-    border-color: #4e5283;
+    border-color: var(--header-color);
     border-width: 10px;
     border-style:double;
     /* margin-left: 10px; */
@@ -24,7 +29,7 @@
 #languages {
     border-radius: 20px;
     width: 100%;
-    border-color: #4e5283;
+    border-color: var(--header-color);
     border-width: 10px;
     border-style:double;
     margin-left: 10px;
@@ -33,7 +38,7 @@
 #design {
     border-radius: 20px;
     width: 100%;
-    border-color: #4e5283;
+    border-color: var(--header-color);
     border-width: 10px;
     border-style:double;
     /* margin-left: 10px; */
@@ -87,7 +92,7 @@
 
 #skills {
     font-family: Tangerine;
-    color:#2b2f53;
+    color: var(--title-color);
     font-size: 8vw;
 }
 
@@ -101,7 +106,7 @@ h4 {
     font-size: 3vw;
     font-family: "kalam";
     letter-spacing: 3px;
-    color: #353964;
+    color: var(--title-color);
 }
 
 

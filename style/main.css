@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Tangerine:wght@700&display=swap');
 
+:root {
+    --title-color: #353964;
+    --header-color: #4e5283;
+}
+
 html, body {
     padding: 0;
     margin: 0;
@@ -19,7 +24,7 @@ header {
 
 header h1 {
     text-align: center;
-    color: #353964;
+    color: var(--title-color);
     font-family: Tangerine;
     font-size: 8vw;
     margin-bottom: 30px;
@@ -65,7 +70,7 @@ nav a:hover {
 hr {
     width: 98%;
     height: 2px;
-    background-color: #353964;
+    background-color: var(--title-color);
     border-width: 0;
 }
 
@@ -94,18 +99,19 @@ body {
 }
 
 footer {
-    background-color:#4e5283;
+    background-color: var(--header-color);
     color: white;
     padding: 10px;
     text-align: center;
     margin-top: 50px;
+    font-family: "kalam", "Times New Roman";
 }
 
 
 @media screen and (max-width: 590px) {
     .dropdown-button {
         background-color: #F2B3BC;
-        color: #4e5283;
+        color: var(--header-color);
         font-family: Kalam;
         border-radius: 10px;
         padding: 16px;
