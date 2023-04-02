@@ -14,7 +14,7 @@
 
 #mru {
     border-radius: 20px;
-    width: 90%;
+    width: 100%;
     border-color: #4e5283;
     border-width: 10px;
     border-style:double;
@@ -23,7 +23,7 @@
 
 #languages {
     border-radius: 20px;
-    width: 90%;
+    width: 100%;
     border-color: #4e5283;
     border-width: 10px;
     border-style:double;
@@ -32,7 +32,7 @@
 
 #design {
     border-radius: 20px;
-    width: 90%;
+    width: 100%;
     border-color: #4e5283;
     border-width: 10px;
     border-style:double;
@@ -103,6 +103,7 @@ h4 {
     letter-spacing: 3px;
     color: #353964;
 }
+
 
 
 
