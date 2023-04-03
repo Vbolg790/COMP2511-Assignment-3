@@ -195,7 +195,7 @@ footer {
         left: 20%
     }
 
-    .dropdown-button:focus {
+    .dropdown-button:focus-visible {
         border: 5px double #3146d1;
     }
 
