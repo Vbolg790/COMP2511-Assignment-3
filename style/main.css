@@ -67,6 +67,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+a:focus-visible  {
+    border: 5px double #3146d1;
+}
+
 hr {
     width: 98%;
     height: 2px;
@@ -106,6 +110,26 @@ footer {
     margin-top: 50px;
     font-family: "kalam", "Times New Roman";
 }
+
+.skip-to-main {
+    position: absolute;
+    top: 85px;
+    z-index: 999;
+    padding: 1em;
+    font-weight: bold;
+    background-color: #FBE3E4;
+    font-family: "kalam", "Times New Roman";
+    color: var(--title-color);
+    border-radius: 20px;
+    opacity: 0;
+    float: left;
+    margin: 10px; 
+    text-decoration: none;
+  }
+
+  .skip-to-main:focus {
+    opacity: 1;
+  }
 
 
 @media screen and (max-width: 590px) {
@@ -166,7 +190,14 @@ footer {
         display: none;
     }
 
-   
+    .skip-to-main {
+        top: 1px;
+        left: 20%
+    }
+
+    .dropdown-button:focus {
+        border: 5px double #3146d1;
+    }
 
 }
 

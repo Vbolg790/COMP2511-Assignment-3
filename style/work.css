@@ -13,6 +13,10 @@
     text-decoration: none;
 }
 
+#work:focus-visible {
+    border: 5px double white;
+}
+
 table, th, td {
     border: 1px solid;
     border-collapse: collapse;
@@ -47,7 +51,7 @@ tr:hover {
     margin: 10px;
   }
 
-  h1 {
+  h2 {
     padding: 10px;
     text-align: center;
     margin-top: 50px;

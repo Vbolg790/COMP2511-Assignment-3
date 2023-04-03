@@ -13,6 +13,10 @@
     text-decoration: none;
 }
 
+#home:focus-visible {
+    border: 5px double white;
+}
+
 #information {
     margin-top: 50px;
 }

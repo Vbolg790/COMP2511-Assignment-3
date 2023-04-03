@@ -11,7 +11,11 @@
     text-decoration: none;
 }
 
-#first-name, #last-name, #email, #phone {
+#contact:focus-visible {
+    border: 5px double white;
+}
+
+.input {
     padding: 15px;
     border-radius: 10px;
     width: 90%;
@@ -103,6 +107,10 @@ footer {
 #message{
     position: relative;
     top: 10px;
+}
+
+#submit:focus-visible, #reset:focus-visible{
+    border: 5px double #3146d1;
 }
 
 @media screen and (max-width: 600px) {

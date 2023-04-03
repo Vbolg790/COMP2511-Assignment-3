@@ -12,6 +12,10 @@
     text-decoration: none;
 }
 
+#about:focus-visible {
+    border: 5px double white;
+}
+
 video {
     width: 50%;
     height: auto;
